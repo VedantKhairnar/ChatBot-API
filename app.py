@@ -11,7 +11,7 @@ def get_query_string():
         data = json.load(f) 
         f.close() 
         query = request.args.getlist('key')[0]
-        query = "Hi"
+        
         for i in data["intents"]:
             if query in i['patterns']:
                 return random.choice(i['responses'])
