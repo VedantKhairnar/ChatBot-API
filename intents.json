@@ -1,0 +1,141 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up"
+            ],
+            "responses": [
+                "Hello! - DevScript Team",
+                "DevScript is glad to see you again!! :)",
+                "Hi there, Welcome to DevScript !! How can I help?",
+                "Hello from the DevScript Team!",
+                "Hi - DevScript Team"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Visit again - DevScript Team",
+                "Goodbye! - DevScript Team",
+                "Hope I was of help",
+                "Bye - DevScript Team"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old are you",
+                "what is your age",
+                "age?"
+            ],
+            "responses": [
+                "I am a AI based chatbot developed using NLP and Deep Learning!",
+                "I was born by DevScript Team!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Jarvis.",
+                "I'm Hero Jarvis!",
+                "I'm Jarvis."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Jarvis",
+            "patterns": [
+                "what does Jarvis do?",
+                "what is Jarvis?",
+                "explain Jarvis?",
+                "aim of Jarvis?"
+            ],
+            "responses": [
+                "We are Community based E-Learning Platform. We are an off campus community that supports women & men that are interested in computer and information science and all tech things. We host tech talks, community events, and business leaders from all around the area on a weekly basis. Our goal is to create and inspire a strong community of women & men in technology fields. We aim to bring support, networking and mentoring to help women & men on your campus to find success in the classroom and in the office.",
+                "We A special interest group that supports women & men who study or are interested in Computer and Information Science."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "registrations",
+            "patterns": [
+                "How can I register",
+                "How can I participate",
+                "What are the aspects of registrations",
+                "What are the different category for participation",
+                "What role can I play"
+            ],
+            "responses": [
+                "You can register as Member, Mentor or Guest Speaker",
+                "Join as Member, Mentor or Guest Speaker",
+                "Apply !! for Member, Mentor or Guest Speaker",
+                "You can be a Member, Mentor or Guest Speaker",
+                "You can enroll for Member, Mentor, Guest Speaker"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "join",
+            "patterns": [
+                "How to join Jarvis?",
+                "What to do?",
+                "How to proceed?",
+                "How to get started?",
+                "Where do i go?",
+                "where is the website",
+                "how to start?",
+                "how to begin?"
+            ],
+            "responses": [
+                "Join us here at - https://devscript.tech/",
+                "Be a part of AI/ML course - https://program.devscript.tech/aiml/",
+                "Become a member of our community - https://community.devscript.tech/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "projects",
+            "patterns": [
+                "what projects?",
+                "what ideas?",
+                "how to contribute?",
+                "how to make a pr?",
+                "where to code?",
+                "latest projects",
+                "project ideas",
+                "what can i work on?"
+            ],
+            "responses": [
+                "Pick a project that you like and start contributing - https://github.com/LetsUpgrade",
+                "Here are some of our latest projects - https://github.com/VedantKhairnar",
+                "Find our projects - https://github.com/VedantKhairnar"
+            ],
+            "context_set": ""
+        }
+    ]
+}
+
